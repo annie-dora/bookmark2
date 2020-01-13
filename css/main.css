@@ -1,0 +1,276 @@
+.nav-link{
+    color: black;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:   hsl(0, 94%, 66%) !important;
+}
+.dang{
+    padding: 5px 25px !important;
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 2px hsl(0, 94%, 66%);
+}
+.dang:hover{
+    background-color: white;
+    color:hsl(0, 94%, 66%) !important;
+    border: 1px solid hsl(0, 94%, 66%);  
+}
+.top{
+    display: none;
+}
+.simple{
+    font-weight: bold;
+    font-size: 30px;
+}
+.clean{
+    color:  hsl(229, 8%, 60%);
+    font-weight: bold;
+}
+.chrome{
+    background-color:  hsl(231, 69%, 60%); 
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgb(131, 131, 243);
+}
+.firefox{
+    background-color: rgb(238, 235, 235);
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgb(202, 198, 198);
+}
+.chrome:hover{
+    background-color: white;
+    color: hsl(231, 69%, 60%); 
+    border: 1px solid hsl(231, 69%, 60%);   
+}
+.firefox:hover{
+    background-color: white;
+    color: rgb(95, 90, 90);
+    border: 1px solid rgb(95, 90, 90);
+}
+.tab{
+    display: inline;
+}
+.tab ul{
+    border-bottom:1px solid #dfdfdf;
+    line-height: 70px;
+}
+/* .tabs ul li{
+    text-align: center;
+     border-bottom:1px solid #be1717; 
+    line-height: 5rem;
+    margin:0 auto;
+    display: inline !important;
+} */
+
+.tablinks{
+    display: inline;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.tablinks.active{
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+}
+.tablinks:hover{
+    color: hsl(0, 94%, 66%);
+}
+.manager{
+    font-weight: bold;
+    font-size: 20px;
+}
+.organize{
+    color: hsl(229, 8%, 60%);
+}
+.card{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img-top{
+    width: 75%;
+    height: 75%;
+    margin: 25px auto;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover{
+    background-color: white;
+    color: hsl(0, 94%, 66%);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+    display: block !important;
+}
+.fa-angle-down{
+    float: right;
+    color: blue;
+}
+.fa-angle-down:active{
+    color: hsl(0, 94%, 66%);
+}
+.footing{
+    background-color: hsl(231, 69%, 60%);
+}
+.already{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    letter-spacing: 1px;
+}
+.stay{
+    color: white;
+    letter-spacing: 1px;
+}
+#email{
+    border-radius: 6px;
+    padding: 5px 10px;
+    border: none;
+}
+.dangs{
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 10px;
+}
+.dangs:hover{
+    background-color: white;
+    color: hsl(0, 94%, 66%);
+}
+.footer{
+    background-color: hsl(230, 33%, 17%);
+}
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.icon:hover{
+    color: hsl(0, 94%, 66%);
+    text-decoration: none;
+}
+.list{
+    list-style-type: none;
+    display: inline !important;
+    padding: 0px 20px;
+    color: white !important;
+}
+.lists{
+    text-decoration: none;
+    color: white;
+}
+.lists:hover{
+    color: hsl(0, 94%, 66%);
+    text-decoration: none;
+}
+
+@media screen and (max-width:375px){
+    .navbar{
+        background-color:  hsl(230, 33%, 17%) !important;
+        text-align: center;
+        color: rgb(207, 24, 24) !important;
+    }
+    .nav-link{
+        color: white !important;
+        
+    }
+    .dang{
+        margin: 0px auto;
+        border: 1px solid white;
+        background-color: transparent;
+        box-shadow: none;
+        width: 150px;
+    }
+    .top{
+        display: block;
+    }
+    .disappear{
+        display: none;
+    }
+    .manager{
+        text-align: center;
+    }
+    .clean{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .tablinks{
+        display: block;
+    }
+    .tab ul{
+        border-bottom: none;
+        line-height: 70px;
+    }
+    .tab li{
+        border-bottom:1px solid #dfdfdf;
+        line-height: 70px;
+    }
+    .tablinks.active{
+        border-bottom: 2px solid hsl(0, 94%, 66%);
+
+    }
+    .simpler{
+        text-align: center;
+    }
+    .bookmarks{
+        font-size: 25px;
+    }
+    .organize{
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .card{
+        margin: 5px auto;
+    }
+    .already{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 2px;
+        color: white;
+    }
+    .stay{
+        font-size: 25px;
+        color: white;
+        letter-spacing: 1px;
+    }
+    #email{
+        border-radius: 6px;
+        padding: 5px 10px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    #email::placeholder{
+        color: rgb(192, 187, 187);
+    }
+    .dangs{
+        background-color: hsl(0, 94%, 66%);
+        color: white;
+        width: 300px !important;
+        border: none;
+        border-radius: 6px;
+    }
+    .footer{
+        text-align: center;
+    }
+
+    .lists{
+        display:block;
+    }
+}
